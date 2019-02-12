@@ -1,7 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "org.chromium.twa.drinks",
-    "sha256_cert_fingerprints": ["FF:71:75:EC:EB:1A:B1:50:A1:7D:00:61:58:A9:27:60:BF:24:5A:81:46:8D:11:E1:04:D4:20:DA:C1:86:8D:4B"]}
-}]
