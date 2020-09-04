@@ -13,10 +13,10 @@
     "watch": "chokidar 'src/*.html' -c 'npm run build'"
   },
   "devDependencies": {
-    "chokidar-cli": "^1.2.0",
+    "chokidar-cli": "^2.1.0",
     "cross-env": "^5.1.3",
-    "http-server": "^0.11.1",
-    "mkdirp": "^0.5.1",
+    "http-server": "^0.12.3",
+    "mkdirp": "^1.0.4",
     "ncp": "^2.0.0",
     "npm-run-all": "^4.1.2",
     "rimraf": "^2.6.2"
