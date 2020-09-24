@@ -7,18 +7,17 @@
     "build": "cross-env NODE_ENV=production run-s build:*",
     "build:html": "ncp src/ dist/",
     "prestart": "npm run build",
-    "start": "npm run start:prod",
-    "start:prod": "http-server './dist/' -c-1 -o -p 2810",
+    "start": "serve './dist/' -p 2810",
     "watch": "chokidar 'src/*.html' -c 'npm run build'"
   },
   "devDependencies": {
     "chokidar-cli": "^2.1.0",
     "cross-env": "^5.2.1",
-    "http-server": "^0.12.3",
     "mkdirp": "^1.0.4",
     "ncp": "^2.0.0",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^2.7.1"
+    "rimraf": "^2.7.1",
+    "serve": "^11.3.2"
   },
   "repository": {
     "type": "git",
@@ -26,5 +25,6 @@
   },
   "keywords": [],
   "author": "Celine Kurpershoek",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {}
 }
